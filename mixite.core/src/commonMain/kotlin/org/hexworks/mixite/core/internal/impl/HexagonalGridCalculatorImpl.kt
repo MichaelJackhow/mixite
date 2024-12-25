@@ -45,7 +45,7 @@ class HexagonalGridCalculatorImpl<T : SatelliteData>(override val hexagonalGrid:
 
         var currentCoordinate = CubeCoordinate.fromCoordinates(
                 centerHexagon.gridX - radius,
-                centerHexagon.gridZ + radius
+                centerHexagon.gridY + radius
         )
 
         for (i in 0 until 6) {
